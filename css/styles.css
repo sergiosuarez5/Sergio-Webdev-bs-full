@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ======================================================================*/
+/*                        INICIO HEADER  all pages                  */
+
+.bg-welcome{
+    background-color: #d9bb96 ;
+    color: #152d35;
+    font-weight: bold;
+}
+
+#menu a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.fond-navbar{
+    background-color:  #229797;
+}
+
+.img-logo {
+    width: 250px;
+}
+/* FIN header */
+/* ======================================================================*/
+
+
+/* ======================================================================*/
+/* INICIO Main "index"*/
+
+.slide1 {
+    background-image: url(../img/slide1.jpg);
+}
+
+.slide2 {
+    background-image: url(../img/slide2.jpg);
+}
+
+.slide3 {
+    background-image: url(../img/slide3.jpg);
+}
+
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+
+/* FIN Main "index" */
+/* ======================================================================*/
+
+
+/* ======================================================================*/
+/* INICIA Section (card) Index */
+
+section {
+    background-color: #152d35;
+    align-items: center;
+}
+
+
+.card-imgs {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9bb96;
+    border: solid 3px #fff;
+}
+
+.sectionVN{
+    min-height: 800px;
+}
+
+.text-span{
+    color: #229797;
+}
+
+/* FIN Section Index */
+/* ======================================================================*/
+
+/* ======================================================================*/
+/* INICIA Footer */
+footer{
+    height: 100px;
+    background-color: #229797;
+    width: 100%;
+}
+
+.redes{
+    color: white;
+}
+
+.ft{
+    text-shadow: 2px 2px 3px rgb(68, 68, 68);
+}
+
+/* FIN Footer */
+/* ======================================================================*/
+
+/* Card aboutme */
+.main-aboutme{
+    background-color: #d9bb96;
+}
+
+.card-aboutme {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+}
+
+/* fin card */
+
+/* Main card Purpose */
+.card-purpose{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainpose{
+    background-color: #d9bb96;
+}
+/* fin Card purpose */
+
+/* FORM CONTACT */
+
+form{
+    min-height: 600px;
+    padding: 13rem;
+}
+
+/* FIN FORM */
