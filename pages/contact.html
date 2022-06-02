@@ -16,6 +16,8 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="shortcut icon" href="../img/logotipe.png">
+
     <link rel="stylesheet" href="../css/styles.css">
 
 </head>
@@ -107,67 +109,58 @@
 <h1 class="text-center text-white">Contact <span class="text-span"> me </span></h1>
 
 <p class="text-center text-white fs-4"><span class="text-span">Y</span>ou can contact me by message and in my social networks.</p>
-
+<p class="text-dark ">s</p>
 </main>
-<!-- Main fin -->
 
+<form>
+    <div class="form">
+    <input type="text" name="Name" placeholder="Name">
 
-<!-- INICIA mi form -->
+    <input type="text" name="Last name" placeholder="Last name">
 
-<form class="row g-3 fs-4 bg-secondary text-white">
-        <div class="col-md-4">
+    <select class="gender">
 
-        <label for="validationDefault01" class="form-label">First name</label>
-        <input type="text" class="form-control" id="validationDefault01" value="" required>
+        <option disabled>Select you gender</option>
+
+        <option>Masculine</option>
+
+        <option>Female</option>
+
+        <option>No gender</option>
+
+    </select><br><br>
+    
+    <textarea name="Menssage" placeholder="Type your message here..."></textarea>
+
+    <h6>Allow notifications?</h6><input type="checkbox" value="Allow notifications?" name="Allow notifications?">
+
+    <input type="reset" value="RESTART" id="boton">
+
+    <button class="button-send">
+
+        <div class="svg-wrapper-1">
+
+            <div class="svg-wrapper">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+
+                <path fill="none" d="M0 0h24v24H0z"></path>
+
+                <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+
+            </svg>
+
+            </div>
+
         </div>
 
-        <div class="col-md-4">
-        <label for="validationDefault02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationDefault02" value="" required>
-        </div>
+        <span>Send</span>
 
-        <div class="col-md-4">
-        <label for="validationDefaultUsername" class="form-label">Email</label>
-        <div class="input-group">
-            <span class="input-group-text" id="inputGroupPrepend2">@</span>
-            <input type="text" class="form-control" id="validationDefaultEmail"  aria-describedby="inputGroupPrepend2" required>
-        </div>
-        </div>
+    </button>
+</div>
+</form>
 
-        <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">City</label>
-        <input type="text" class="form-control" id="validationDefault03" required>
-        </div>
 
-        <div class="col-md-3">
-        <label for="validationDefault04" class="form-label">State</label>
-        <select class="form-select" id="validationDefault04" required>
-            <option selected disabled value="">Choose...</option>
-            <option>...</option>
-        </select>
-        </div>
-
-        <div class="col-md-3">
-        <label for="validationDefault05" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
-        </div>
-
-        <div class="col-12">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-            <label class="form-check-label" for="invalidCheck2">
-            Allow notifications?
-            </label>
-        </div>
-        </div>
-
-        <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-        </div>
-
-    </form>
-
-<!-- FIN de mi form -->
 
 <!----------------------------- INICIO Footer  --------------------------------------------->
 <footer class="col-sm-12 redes d-flex justify-content-around align-items-center">
